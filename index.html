@@ -10,11 +10,15 @@
             rel="stylesheet">
         <script
             src="https://cdn.jsdelivr.net/npm/flowbite@1.6.3/dist/flowbite.min.js"></script>
+        <style>
+    /* Custom Spin Animation */
+    
+</style>
     </head>
     <body class="bg-gray-100">
         <!-- Navbar -->
         <div
-            class=" bg-gray-800 ">
+            class=" bg-gray-800 overflow-hidden">
             <nav
                 class="bg-transparent text-white w-full max-w-7xl mx-auto border-b border-gray-200 shadow">
                 <div
@@ -139,14 +143,35 @@
                         Now</a>
                 </div>
             </section>
+
+            <div
+                class="absolute lg:top-52 top-20 lg:right-52 lg:block hidden right-8  bg-yellow-700 rounded-full animate-spin">
+                <span class="relative flex lg:h-20 lg:w-20 h-10 w-10">
+                    <span
+                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-100 opacity-50"></span>
+                    <span
+                        class="relative inline-flex rounded-full md:h-20 md:w-20 h-10 w-10 bg-yellow-50 opacity-25"></span>
+                </span></div>
+
+            <div class=" absolute left-20 bottom-20 hidden lg:block">
+                <span class="relative flex lg:h-20 lg:w-20 h-10 w-10">
+                    <span
+                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-100 opacity-50"></span>
+                    <span
+                        class="relative inline-flex rounded-full md:h-20 md:w-20 h-10 w-10 bg-yellow-50 opacity-25"></span>
+                </span>
+            </div>
+
         </div>
 
-         <!-- Course Summary -->
+        <!-- Course Summary -->
         <div class="w-full  mx-auto bg-gray-900 py-8 ">
-              <h1 class="text-2xl md:text-3xl lg:text-5xl text-center text-white my-4">Course Summary </h1>
+            <h1
+                class="text-2xl md:text-3xl lg:text-5xl text-center text-white my-4">Course
+                Summary </h1>
             <div
                 class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full mx-auto max-w-7xl p-8 items-center">
-              
+
                 <ol
                     class="relative border-s w-full max-w-7xl border-dashed mx-auto border-gray-200  dark:border-gray-700">
                     <li
@@ -213,24 +238,155 @@
                             layout and premium techonologies, </p>
 
                     </li>
-                    
 
                 </ol>
-                
+
                 <div>
-                    <img src="./Assets/course steps.avif" class="w-full h-full img-fluied"/>
+                    <img src="./Assets/1.jpg"
+                        class="w-full h-full img-fluied" />
                 </div>
 
+            </div>
+            <div class="text-center">
+                <a href="#courses"
+                    class="mt-6 text-center inline-block bg-yellow-700 text-white shadow hover:text-black px-8 py-4 font-semibold rounded-lg shadow hover:bg-gray-100">Enroll
+                    Now</a>
+            </div>
+        </div>
+
+        <!-- course process  -->
+
+        <div class="w-full bg-gray-800 p-8">
+            <div class="grid grid-cols-1 w-full max-w-7xl mx-auto  bg-gray-800">
+                <div
+                    class="flex flex-col md:flex-row bg-gray-800 p-4 md:p-8 border-dashed mx-auto border-white border-l-2 grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="p-2 col-span-1 md:col-span-2  my-auto">
+                        <button
+                            class="bg-yellow-800 text-black font-bold px-4 py-2 rounded shadow text-white">Step
+                            one</button>
+                        <p class="text-gray-100">Lorem ipsum dolor sit amet
+                            consectetur adipisicing
+                            elit. Dolore alias dolorum dolorem, obcaecati
+                            distinctio perferendis. Eligendi sunt velit quaerat
+                            impedit vel, vero, odio distinctio, laboriosam
+                            voluptate nostrum alias cupiditate sint!</p>
+
+                    </div>
+                    <div class="col-span-1 md:col-span-1">
+                        <img src="./Assets/4.jpg"
+                            class="h-full w-full img-fluied object-fit" />
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col md:flex-row bg-gray-800 p-4 md:p-8 border-dashed mx-auto border-white border-r-2 border-t-2 grid grid-cols-1 md:grid-cols-3 gap-4">
+
+                    <div class="col-span-1 md:col-span-1">
+                        <img src="./Assets/1.jpg"
+                            class="h-full w-full img-fluied object-fit" />
+                    </div>
+                    <div class="p-2 col-span-1 md:col-span-2  my-auto">
+                        <button
+                            class="bg-yellow-800 text-black font-bold px-4 py-2 rounded shadow text-white">Step
+                            one</button>
+                        <p class="text-gray-100">Lorem ipsum dolor sit amet
+                            consectetur adipisicing
+                            elit. Dolore alias dolorum dolorem, obcaecati
+                            distinctio perferendis. Eligendi sunt velit quaerat
+                            impedit vel, vero, odio distinctio, laboriosam
+                            voluptate nostrum alias cupiditate sint!</p>
+
+                    </div>
+
+                </div>
+                <div
+                    class="flex flex-col md:flex-row bg-gray-800 p-4 md:p-8 border-dashed mx-auto border-white border-l-2 border-t-2 grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="p-2 col-span-1 md:col-span-2  my-auto">
+                        <button
+                            class="bg-yellow-800 text-black font-bold px-4 py-2 rounded shadow text-white">Step
+                            one</button>
+                        <p class="text-gray-100">Lorem ipsum dolor sit amet
+                            consectetur adipisicing
+                            elit. Dolore alias dolorum dolorem, obcaecati
+                            distinctio perferendis. Eligendi sunt velit quaerat
+                            impedit vel, vero, odio distinctio, laboriosam
+                            voluptate nostrum alias cupiditate sint!</p>
+
+                    </div>
+                    <div class="col-span-1 md:col-span-1">
+                        <img src="./Assets/2.jpg"
+                            class="h-full w-full img-fluied object-fit" />
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col md:flex-row bg-gray-800 p-4 md:p-8 border-dashed mx-auto border-white border-r-2 border-t-2  grid grid-cols-1 md:grid-cols-3 gap-4">
+
+                    <div class="col-span-1 md:col-span-1">
+                        <img src="./Assets/1.jpg"
+                            class="h-full w-full img-fluied object-fit" />
+                    </div>
+                    <div class="p-2 col-span-1 md:col-span-2  my-auto">
+                        <button
+                            class="bg-yellow-800 text-black font-bold px-4 py-2 rounded shadow text-white">Step
+                            one</button>
+                        <p class="text-gray-100">Lorem ipsum dolor sit amet
+                            consectetur adipisicing
+                            elit. Dolore alias dolorum dolorem, obcaecati
+                            distinctio perferendis. Eligendi sunt velit quaerat
+                            impedit vel, vero, odio distinctio, laboriosam
+                            voluptate nostrum alias cupiditate sint!</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="text-center">
+                <a href="#courses"
+                    class="mt-6 text-center inline-block bg-yellow-700 text-white shadow hover:text-black px-8 py-4 font-semibold rounded-lg shadow hover:bg-gray-100">Enroll
+                    Now</a>
+            </div>
+        </div>
+
+        <!-- instructors -->
+        <div class="w-full bg-gray-900 py-8">
+            <h1
+                class="text-2xl md:text-3xl lg:text-4xl text-center text-yellow-600 font-medium">Course
+                Instractor </h1>
+            <div
+                class="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center my-8">
+                <!-- Image Section -->
+                <div
+                    class="flex justify-center items-center border-r-2 border-dashed border-white">
+                    <img src="./Assets/teacher.png"
+                        class="w-80 h-80 object-cover rounded-full"
+                        alt="Instructor Image" />
+                </div>
+
+                <!-- Text Section -->
+                <div class="flex justify-center items-start">
+                    <div class="flex flex-col gap-4 px-4 md:px-8">
+                        <h1
+                            class="text-yellow-600 text-2xl font-semibold">Course
+                            Instructor</h1>
+                        <p class="text-gray-100 text-base md:text-lg">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Mollitia sapiente perferendis eligendi
+                            doloremque doloribus in temporibus facilis ea,
+                            excepturi animi laborum necessitatibus optio, atque
+                            voluptas velit facere tempora iusto autem?
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 
         <!-- About Section -->
-        <section id="about" class="py-20">
+        <section id="#about" class="py-20 bg-gray-800 text-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center">
-                    <h2 class="text-3xl font-bold text-gray-800">Why Choose
+                    <h2 class="text-3xl font-bold text-yellow-600">Why Choose
                         Us?</h2>
-                    <p class="mt-4 text-gray-600">We provide industry-relevant
+                    <p class="mt-4 text-white">We provide industry-relevant
                         training with expert instructors and hands-on
                         projects.</p>
                 </div>
@@ -256,43 +412,251 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- Courses Section -->
-        <section id="courses" class="py-20 bg-gray-50">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center">
-                    <h2 class="text-3xl font-bold text-gray-800">Our
-                        Courses</h2>
-                    <p class="mt-4 text-gray-600">Browse our range of IT courses
-                        designed to meet every need.</p>
-                </div>
-                <div
-                    class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="p-6 bg-white rounded-lg shadow">
-                        <h3 class="text-xl font-semibold text-gray-800">Web
-                            Development</h3>
-                        <p class="mt-2 text-gray-600">Master HTML, CSS,
-                            JavaScript, and modern frameworks.</p>
-                    </div>
-                    <div class="p-6 bg-white rounded-lg shadow">
-                        <h3 class="text-xl font-semibold text-gray-800">Data
-                            Science</h3>
-                        <p class="mt-2 text-gray-600">Learn Python, R, and data
-                            visualization techniques.</p>
-                    </div>
-                    <div class="p-6 bg-white rounded-lg shadow">
-                        <h3
-                            class="text-xl font-semibold text-gray-800">Cybersecurity</h3>
-                        <p class="mt-2 text-gray-600">Gain skills to protect
-                            systems and data.</p>
-                    </div>
-                </div>
+            <div class="text-center">
+                <a href="#courses"
+                    class="mt-6 text-center inline-block bg-yellow-700 text-white shadow hover:text-black px-8 py-4 font-semibold rounded-lg shadow hover:bg-gray-100">Enroll
+                    Now</a>
             </div>
         </section>
 
-        <script>
-        // Add any custom JS logic here
-    </script>
-    </body>
-</html>
+        <!-- Frequently Ask Question  -->
+
+        <div class="w-full bg-gray-900 mx-auto py-8">
+            <h1
+                class="text-2xl md:text-2xl lg:text-5xl text-center text-yellow-600">Frequently
+                Question </h1>
+            <div id="accordion-flush" data-accordion="collapse"
+                data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+                data-inactive-classes="text-gray-900 dark:text-gray-400"
+                class="w-full max-w-7xl mx-auto">
+                <h2 id="accordion-flush-heading-1">
+                    <button type="button"
+                        class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                        data-accordion-target="#accordion-flush-body-1"
+                        aria-expanded="true"
+                        aria-controls="accordion-flush-body-1">
+                        <span>What is Frontend Development?</span>
+                        <svg data-accordion-icon
+                            class="w-3 h-3 rotate-180 shrink-0"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2"
+                                d="M9 5 5 1 1 5" />
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-flush-body-1" class="hidden"
+                    aria-labelledby="accordion-flush-heading-1">
+                    <div
+                        class="py-5 border-b border-gray-200 dark:border-gray-700">
+                        <p
+                            class="mb-2 text-gray-500 dark:text-gray-400">Gmit
+                            is
+                            an open-source library of interactive components
+                            built
+                            on top of Tailwind CSS including buttons, dropdowns,
+                            modals, navbars, and more.</p>
+                        <p class="text-gray-500 dark:text-gray-400">Check out
+                            this
+                            guide to learn how to <a
+                                href="/docs/getting-started/introduction/"
+                                class="text-blue-600 dark:text-blue-500 hover:underline">get
+                                started</a> and start developing websites even
+                            faster with components on top of Tailwind CSS.</p>
+                    </div>
+                </div>
+                <h2 id="accordion-flush-heading-2">
+                    <button type="button"
+                        class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                        data-accordion-target="#accordion-flush-body-2"
+                        aria-expanded="false"
+                        aria-controls="accordion-flush-body-2">
+                        <span>Is there a instructors available?</span>
+                        <svg data-accordion-icon
+                            class="w-3 h-3 rotate-180 shrink-0"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2"
+                                d="M9 5 5 1 1 5" />
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-flush-body-2" class="hidden"
+                    aria-labelledby="accordion-flush-heading-2">
+                    <div
+                        class="py-5 border-b border-gray-200 dark:border-gray-700">
+                        <p
+                            class="mb-2 text-gray-500 dark:text-gray-400">Frontend
+                            Development
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Aut placeat optio sit facilis ipsum.
+                            Recusandae consequuntur ipsam quae enim eos.</p>
+                        <p class="text-gray-500 dark:text-gray-400">Check out
+                            the <a
+                                href="https://flowbite.com/figma/"
+                                class="text-blue-600 dark:text-blue-500 hover:underline">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Odio, quas.
+                                .</p>
+                        </div>
+                    </div>
+                    <h2 id="accordion-flush-heading-3">
+                        <button type="button"
+                            class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                            data-accordion-target="#accordion-flush-body-3"
+                            aria-expanded="false"
+                            aria-controls="accordion-flush-body-3">
+                            <span>What are the differences between Flowbite and
+                                Tailwind
+                                UI?</span>
+                            <svg data-accordion-icon
+                                class="w-3 h-3 rotate-180 shrink-0"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-flush-body-3" class="hidden"
+                        aria-labelledby="accordion-flush-heading-3">
+                        <div
+                            class="py-5 border-b border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">The
+                                main
+                                difference is that the core components from
+                                Flowbite
+                                are
+                                open source under the MIT license, whereas
+                                Tailwind
+                                UI
+                                is a paid product. Another difference is that
+                                Flowbite
+                                relies on smaller and standalone components,
+                                whereas
+                                Tailwind UI offers sections of pages.</p>
+                            <p
+                                class="mb-2 text-gray-500 dark:text-gray-400">However,
+                                we
+                                actually recommend using both Flowbite, Flowbite
+                                Pro,
+                                and even Tailwind UI as there is no technical
+                                reason
+                                stopping you from using the best of two
+                                worlds.</p>
+                            <p
+                                class="mb-2 text-gray-500 dark:text-gray-400">Learn
+                                more
+                                about these technologies:</p>
+                            <ul
+                                class="ps-5 text-gray-500 list-disc dark:text-gray-400">
+                                <li><a href="#"
+                                        class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite
+                                        Pro</a></li>
+                                <li><a href="#"
+                                        rel="nofollow"
+                                        class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind
+                                        UI</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full bg-gray-900">
+
+                <footer
+                    class="w-full max-w-7xl mx-auto  pt-8 dark:bg-gray-800">
+                    <div
+                        class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+                        <span
+                            class="text-sm text-gray-500 sm:text-center dark:text-gray-400">©
+                            2023 <a href="https://flowbite.com/"
+                                class="hover:underline">Flowbite™</a>. All
+                            Rights
+                            Reserved.
+                        </span>
+                        <ul
+                            class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                            <li>
+                                <a href="#"
+                                    class="hover:underline me-4 md:me-6">About</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="hover:underline me-4 md:me-6">Privacy
+                                    Policy</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="hover:underline me-4 md:me-6">Licensing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+
+            </div>
+
+            <div data-dial-init class="fixed end-6 bottom-6 group">
+                <div id="speed-dial-menu-square"
+                    class="flex flex-col items-center hidden mb-4 space-y-2">
+                    <button type="button"
+                        data-tooltip-target="tooltip-messenger"
+                        data-tooltip-placement="left"
+                        class="flex justify-center items-center w-[52px] h-[52px] ">
+                        <img src="./Assets/messenger.png"
+                            class="w-12 h-12 object-cover" />
+                        <span class="sr-only">Messenger</span>
+                    </button>
+                    <div id="tooltip-messenger" role="tooltip"
+                        class="absolute z-10 invisible inline-block w-auto px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                        Messenger
+                        <div class="tooltip-arrow" data-popper-arrow></div>
+                    </div>
+                    <button type="button" data-tooltip-target="tooltip-WhatsApp"
+                        data-tooltip-placement="left"
+                        class="flex justify-center items-center w-[52px] h-[52px]">
+                        <img src="./Assets/whatsapp.png"
+                            class="w-12 h-12 object-cover" />
+                        <span class="sr-only">WhatsApp</span>
+                    </button>
+                    <div id="tooltip-WhatsApp" role="tooltip"
+                        class="absolute z-10 invisible inline-block w-auto px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                        WhatsApp
+                        <div class="tooltip-arrow" data-popper-arrow></div>
+                    </div>
+                    <button type="button" data-tooltip-target="tooltip-Call"
+                        data-tooltip-placement="left"
+                        class="flex justify-center items-center w-[52px] h-[52px]">
+                        <img src="./Assets/call.png"
+                            class="w-12 h-12 object-cover" />
+                        <span class="sr-only">Call</span>
+                    </button>
+                    <div id="tooltip-Call" role="tooltip"
+                        class="absolute z-10 invisible inline-block w-auto px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                        Call
+                        <div class="tooltip-arrow" data-popper-arrow></div>
+                    </div>
+
+                </div>
+                <button type="button" data-dial-toggle="speed-dial-menu-square"
+                    aria-controls="speed-dial-menu-square" aria-expanded="false"
+                    class="flex items-center justify-center text-white bg-white rounded w-12 h-12 ">
+                    <img src="./Assets/chat.png"
+                        class="w-12 h-12 object-cover" />
+                    <span class="sr-only">Open actions menu</span>
+                </button>
+            </div>
+
+        </body>
+    </html>
