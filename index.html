@@ -83,7 +83,8 @@
                         <button type="button" data-drawer-hide="drawer-example"
                             aria-controls="drawer-example"
                             class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 flex items-center justify-center">
-                            <svg class="w-3 h-3" aria-hidden="true"
+                            <svg class="w-5 h-5" aria-hidden="true"
+                                class="animate-pluse"
                                 xmlns="http://www.w3.org/2000/svg" fill="none"
                                 viewBox="0 0 14 14">
                                 <path stroke="currentColor"
@@ -93,20 +94,40 @@
                             </svg>
                             <span class="sr-only">Close menu</span>
                         </button>
-                        <ul class="flex flex-col space-y-6 mt-6">
-                            <li><a href="#about"
-                                    class="text-gray-700 hover:text-blue-600">Home</a></li>
-                            <li><a href="#courses"
-                                    class="text-gray-700 hover:text-blue-600">About
+                        <ul class="flex flex-col space-y-2 mt-8">
+                            <li
+                                class="bg-slate-50 p-3 rounded flex gap-2 items-center">
+                                <img src="./Assets/home.png"
+                                    class=" h-8 w-8 object-fit" /><a
+                                    href="#about"
+                                    class="text-gray-700 hover:text-blue-600 transition-colors duration-300">Home</a></li>
+                            <li
+                                class="bg-slate-50 p-3 rounded flex gap-2 items-center">
+                                <img src="./Assets/course.png"
+                                    class=" h-8 w-8 object-fit" /><a
+                                    href="#courses"
+                                    class="text-gray-700 hover:text-blue-600 transition-colors duration-300">About
                                     Courses</a></li>
-                            <li><a href="#student-review"
-                                    class="text-gray-700 hover:text-blue-600">Student
+                            <li
+                                class="bg-slate-50 p-3 rounded flex gap-2 items-center">
+                                <img src="./Assets/review.png"
+                                    class=" h-8 w-8 object-fit" />
+                                <a href="#student-review"
+                                    class="text-gray-700 hover:text-blue-600 transition-colors duration-300">Student
                                     Review</a></li>
-                            <li><a href="#what-will-get"
-                                    class="text-gray-700 hover:text-blue-600">What
+                            <li
+                                class="bg-slate-50 p-3 rounded flex gap-2 items-center">
+                                <img src="./Assets/whatget.png"
+                                    class=" h-8 w-8 object-fit" /><a
+                                    href="#what-will-get"
+                                    class="text-gray-700 hover:text-blue-600 transition-colors duration-300">What
                                     Will You Get</a></li>
-                            <li><a href="#what-will-learn"
-                                    class="text-gray-700 hover:text-blue-600">What
+                            <li
+                                class="bg-slate-50 p-3 rounded flex gap-2 items-center">
+                                <img src="./Assets/learn.png"
+                                    class=" h-8 w-8 object-fit" /><a
+                                    href="#what-will-learn"
+                                    class="text-gray-700 hover:text-blue-600 transition-colors duration-300">What
                                     Will You Learn</a></li>
                         </ul>
                     </div>
@@ -614,61 +635,10 @@
 
             </div>
 
-            <!-- <div data-dial-init class="fixed end-6 bottom-6 group">
-                <div id="speed-dial-menu-square"
-                    class="flex flex-col items-center hidden mb-4 space-y-2">
-                    <button type="button"
-                        data-tooltip-target="tooltip-messenger"
-                        data-tooltip-placement="left"
-                        class="flex justify-center items-center w-[52px] h-[52px] ">
-                        <img src="./Assets/messenger.png"
-                            class="w-12 h-12 object-cover" />
-                        <span class="sr-only">Messenger</span>
-                    </button>
-                    <div id="tooltip-messenger" role="tooltip"
-                        class="absolute z-10 invisible inline-block w-auto px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-                        Messenger
-                        <div class="tooltip-arrow" data-popper-arrow></div>
-                    </div>
-                    <button type="button" data-tooltip-target="tooltip-WhatsApp"
-                        data-tooltip-placement="left"
-                        class="flex justify-center items-center w-[52px] h-[52px]">
-                        <img src="./Assets/whatsapp.png"
-                            class="w-12 h-12 object-cover" />
-                        <span class="sr-only">WhatsApp</span>
-                    </button>
-                    <div id="tooltip-WhatsApp" role="tooltip"
-                        class="absolute z-10 invisible inline-block w-auto px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-                        WhatsApp
-                        <div class="tooltip-arrow" data-popper-arrow></div>
-                    </div>
-                    <button type="button" data-tooltip-target="tooltip-Call"
-                        data-tooltip-placement="left"
-                        class="flex justify-center items-center w-[52px] h-[52px]">
-                        <img src="./Assets/call.png"
-                            class="w-12 h-12 object-cover" />
-                        <span class="sr-only">Call</span>
-                    </button>
-                    <div id="tooltip-Call" role="tooltip"
-                        class="absolute z-10 invisible inline-block w-auto px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-                        Call
-                        <div class="tooltip-arrow" data-popper-arrow></div>
-                    </div>
-
-                </div>
-                <button type="button" data-dial-toggle="speed-dial-menu-square"
-                    aria-controls="speed-dial-menu-square" aria-expanded="false"
-                    class="flex items-center justify-center text-white bg-white rounded w-12 h-12 ">
-                    <img src="./Assets/chat.png"
-                        class="w-12 h-12 object-cover" />
-                    <span class="sr-only">Open actions menu</span>
-                </button>
-            </div> -->
-
             <div data-dial-init class="fixed end-6 bottom-6 group">
                 <div id="speed-dial-menu-square"
-                    class="flex flex-col items-center hidden mb-4 space-y-2">
-                    <!-- Messenger button -->
+                    class="flex flex-col items-center hidden mb-4 space-y-2 transition duration-150 ease-in-out">
+
                     <button type="button"
                         data-tooltip-target="tooltip-messenger"
                         data-tooltip-placement="left"
@@ -677,14 +647,13 @@
                             class="w-12 h-12 object-cover" />
                         <span class="sr-only">Messenger</span>
                     </button>
-                    <!-- Tooltip for Messenger -->
+
                     <div id="tooltip-messenger" role="tooltip"
                         class="absolute z-10 invisible inline-block w-auto px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
                         Messenger
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
 
-                    <!-- WhatsApp button -->
                     <button type="button" data-tooltip-target="tooltip-WhatsApp"
                         data-tooltip-placement="left"
                         class="flex justify-center items-center w-[52px] h-[52px]">
@@ -692,14 +661,13 @@
                             class="w-12 h-12 object-cover" />
                         <span class="sr-only">WhatsApp</span>
                     </button>
-                    <!-- Tooltip for WhatsApp -->
+
                     <div id="tooltip-WhatsApp" role="tooltip"
                         class="absolute z-10 invisible inline-block w-auto px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
                         WhatsApp
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
 
-                    <!-- Call button -->
                     <button type="button" data-tooltip-target="tooltip-Call"
                         data-tooltip-placement="left"
                         class="flex justify-center items-center w-[52px] h-[52px]">
@@ -707,7 +675,7 @@
                             class="w-12 h-12 object-cover" />
                         <span class="sr-only">Call</span>
                     </button>
-                    <!-- Tooltip for Call -->
+
                     <div id="tooltip-Call" role="tooltip"
                         class="absolute z-10 invisible inline-block w-auto px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
                         Call
@@ -715,11 +683,10 @@
                     </div>
                 </div>
 
-                <!-- Button to toggle menu visibility -->
                 <button type="button" id="toggle-dial-menu"
                     data-dial-toggle="speed-dial-menu-square"
                     aria-controls="speed-dial-menu-square" aria-expanded="false"
-                    class="flex items-center justify-center text-white bg-white rounded w-12 h-12">
+                    class="flex items-center justify-center text-white  rounded w-12 h-12">
                     <img src="./Assets/chat.png"
                         class="w-12 h-12 object-cover" />
                     <span class="sr-only">Open actions menu</span>
