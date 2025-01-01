@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IT Course Landing Page</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/flowbite@1.6.3/dist/flowbite.min.css"
+            rel="stylesheet">
+        <script
+            src="https://cdn.jsdelivr.net/npm/flowbite@1.6.3/dist/flowbite.min.js"></script>
+    </head>
+    <body class="bg-gray-100">
+        <!-- Navbar -->
+        <div
+            class=" bg-gray-800 ">
+            <nav
+                class="bg-transparent text-white w-full max-w-7xl mx-auto border-b border-gray-200 shadow">
+                <div
+                    class="mx-auto px-4 sm:px-6 flex justify-between items-center py-4">
+                    <a href="#"
+                        class="text-2xl font-bold text-white">GMIT</a>
+
+                    <!-- Desktop Menu -->
+                    <ul class="flex space-x-6 hidden md:flex">
+                        <li><a href="#about"
+                                class="text-yellow-500 hover:text-white">Home</a></li>
+                        <li><a href="#courses"
+                                class="text-yellow-500 hover:text-white">About
+                                Courses</a></li>
+                        <li><a href="#student-review"
+                                class="text-yellow-500 hover:text-white">Student
+                                Review</a></li>
+                        <li><a href="#what-will-get"
+                                class="text-yellow-500 hover:text-white">What
+                                Will You Get</a></li>
+                        <li><a href="#what-will-learn"
+                                class="text-yellow-500 hover:text-white">What
+                                Will You Learn</a></li>
+                    </ul>
+
+                    <!-- Mobile Menu and Enroll Button -->
+                    <div class="flex flex-row gap-2">
+                        <button
+                            class=" bg-yellow-700 text-white hover:text-white px-3 py-2 rounded text-white shadow">Enroll
+                            Now</button>
+
+                        <!-- Drawer Toggle Button -->
+                        <div class="text-center block md:hidden">
+                            <button
+                                class="text-white font-medium rounded-lg text-sm px-5 py-2.5 mb-2"
+                                type="button"
+                                data-drawer-target="drawer-example"
+                                data-drawer-show="drawer-example"
+                                aria-controls="drawer-example">
+                                <svg class="w-6 h-6"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h16m-7 6h7" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Drawer Component (Mobile Menu) -->
+                    <div id="drawer-example"
+                        class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-80"
+                        tabindex="-1" aria-labelledby="drawer-label">
+                        <button type="button" data-drawer-hide="drawer-example"
+                            aria-controls="drawer-example"
+                            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 flex items-center justify-center">
+                            <svg class="w-3 h-3" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 14 14">
+                                <path stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2"
+                                    d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                            </svg>
+                            <span class="sr-only">Close menu</span>
+                        </button>
+                        <ul class="flex flex-col space-y-6 mt-6">
+                            <li><a href="#about"
+                                    class="text-gray-700 hover:text-blue-600">Home</a></li>
+                            <li><a href="#courses"
+                                    class="text-gray-700 hover:text-blue-600">About
+                                    Courses</a></li>
+                            <li><a href="#student-review"
+                                    class="text-gray-700 hover:text-blue-600">Student
+                                    Review</a></li>
+                            <li><a href="#what-will-get"
+                                    class="text-gray-700 hover:text-blue-600">What
+                                    Will You Get</a></li>
+                            <li><a href="#what-will-learn"
+                                    class="text-gray-700 hover:text-blue-600">What
+                                    Will You Learn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Hero Section -->
+            <section
+                class="flex items-center w-full max-w-4xl mx-auto justify-center text-center text-white py-20">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h1
+                        class="text-5xl p-4 text-center font-bold bg-gradient-to-br from-orange-400 via-yellow-50 to-yellow-600 bg-clip-text text-transparent my-4">
+                        A Master IT Skills Today</h1>
+
+                    <!-- YouTube Video Section -->
+                    <div
+                        class="relative bg-gray-200  mx-auto h-80 rounded-lg overflow-hidden shadow-lg"
+                        style="padding-top: 56.25%; position: relative;">
+                        <iframe class="absolute top-0 left-0 w-full h-full"
+                            src="https://www.youtube.com/embed/UZLVuxn2EJo"
+                            title="Story of Failure &amp; Success - Anisul Islam &amp; Sumit Saha  - Talk with Sumit Episode 13"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen></iframe>
+
+                    </div>
+                    <p class="my-4 text-justify">We Strongly Believe In
+                        Personalized Learning & Empower
+                        Individuals To Kick-Start Their Careers. There Is No
+                        Chance Of Falling Behind, With A Module-Wise
+                        Structured
+                        & Project Based Study Plan Packed With Quizzes,
+                        Assignments, Practice Homework For Interview
+                        Preparation
+                        & Special Guidance For Freelancing In Just One
+                        Course.</p>
+                    <a href="#courses"
+                        class="mt-6 inline-block bg-yellow-700 text-white shadow hover:text-black px-8 py-4 font-semibold rounded-lg shadow hover:bg-gray-100">Enroll
+                        Now</a>
+                </div>
+            </section>
+        </div>
+
+         <!-- Course Summary -->
+        <div class="w-full  mx-auto bg-gray-900 py-8 ">
+              <h1 class="text-2xl md:text-3xl lg:text-5xl text-center text-white my-4">Course Summary </h1>
+            <div
+                class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full mx-auto max-w-7xl p-8 items-center">
+              
+                <ol
+                    class="relative border-s w-full max-w-7xl border-dashed mx-auto border-gray-200  dark:border-gray-700">
+                    <li
+                        class="mb-10 ms-6 p-8 rounded shadow-lg bg-gradient-to-r from-slate-800 via-slate-700 to-slate-600">
+                        <span
+                            class="absolute flex items-center justify-center w-6 h-6  rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                            1
+                        </span>
+                        <h3
+                            class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                            Reason to why One </h3>
+
+                        <p
+                            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get
+                            access to over 20+ module including a dashboard
+                            layout and premium techonologies, </p>
+
+                    </li>
+                    <li
+                        class="mb-10 ms-6 p-8 rounded shadow-lg bg-gradient-to-r from-slate-800 via-slate-700 to-slate-600">
+                        <span
+                            class="absolute flex items-center justify-center w-6 h-6  rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                            2
+                        </span>
+                        <h3
+                            class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                            Reason to why two </h3>
+
+                        <p
+                            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get
+                            access to over 20+ module including a dashboard
+                            layout and premium techonologies, </p>
+
+                    </li>
+                    <li
+                        class="mb-10 ms-6 p-8 rounded shadow-lg bg-gradient-to-r from-slate-800 via-slate-700 to-slate-600">
+                        <span
+                            class="absolute flex items-center justify-center w-6 h-6  rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                            3
+                        </span>
+                        <h3
+                            class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                            Reason to why three </h3>
+
+                        <p
+                            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get
+                            access to over 20+ module including a dashboard
+                            layout and premium techonologies, </p>
+
+                    </li>
+                    <li
+                        class="mb-10 ms-6 p-8 rounded shadow-lg bg-gradient-to-r from-slate-800 via-slate-700 to-slate-600">
+                        <span
+                            class="absolute flex items-center justify-center w-6 h-6  rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                            4
+                        </span>
+                        <h3
+                            class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                            Reason to why four </h3>
+
+                        <p
+                            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get
+                            access to over 20+ module including a dashboard
+                            layout and premium techonologies, </p>
+
+                    </li>
+                    
+
+                </ol>
+                
+                <div>
+                    <img src="./Assets/course steps.avif" class="w-full h-full img-fluied"/>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <section id="about" class="py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-3xl font-bold text-gray-800">Why Choose
+                        Us?</h2>
+                    <p class="mt-4 text-gray-600">We provide industry-relevant
+                        training with expert instructors and hands-on
+                        projects.</p>
+                </div>
+                <div
+                    class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="p-6 bg-white rounded-lg shadow">
+                        <h3 class="text-xl font-semibold text-gray-800">Expert
+                            Mentors</h3>
+                        <p class="mt-2 text-gray-600">Learn from IT
+                            professionals with years of experience.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow">
+                        <h3 class="text-xl font-semibold text-gray-800">Flexible
+                            Learning</h3>
+                        <p class="mt-2 text-gray-600">Choose your own pace with
+                            our online and offline options.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow">
+                        <h3
+                            class="text-xl font-semibold text-gray-800">Certification</h3>
+                        <p class="mt-2 text-gray-600">Get certified to enhance
+                            your professional profile.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-3xl font-bold text-gray-800">Our
+                        Courses</h2>
+                    <p class="mt-4 text-gray-600">Browse our range of IT courses
+                        designed to meet every need.</p>
+                </div>
+                <div
+                    class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="p-6 bg-white rounded-lg shadow">
+                        <h3 class="text-xl font-semibold text-gray-800">Web
+                            Development</h3>
+                        <p class="mt-2 text-gray-600">Master HTML, CSS,
+                            JavaScript, and modern frameworks.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow">
+                        <h3 class="text-xl font-semibold text-gray-800">Data
+                            Science</h3>
+                        <p class="mt-2 text-gray-600">Learn Python, R, and data
+                            visualization techniques.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow">
+                        <h3
+                            class="text-xl font-semibold text-gray-800">Cybersecurity</h3>
+                        <p class="mt-2 text-gray-600">Gain skills to protect
+                            systems and data.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+        // Add any custom JS logic here
+    </script>
+    </body>
+</html>
